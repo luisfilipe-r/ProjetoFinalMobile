@@ -11,13 +11,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjetoFinalMobile">
         <activity
+            android:name=".Views.TrackerActivity"
+            android:exported="false" />
+        <activity
             android:name=".Views.CadastroActivity"
             android:exported="false" />
         <activity
             android:name=".Views.CoinDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".Views.CoinTrackerActivity"
+            android:name=".Views.TrendingCoinActivity"
             android:exported="false" />
         <activity
             android:name=".Views.CoinsRVActivity"

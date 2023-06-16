@@ -16,6 +16,7 @@ public class  HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         Button btn_analisar_moedas = findViewById(R.id.button_moedas);
+        Button btn_acompanhar = findViewById(R.id.button_tracker);
         Button btn_moedas_em_alta = findViewById(R.id.button_trending);
 
         btn_analisar_moedas.setOnClickListener( view -> {
@@ -23,8 +24,13 @@ public class  HomeActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        btn_acompanhar.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), TrackerActivity.class);
+            startActivity(intent);
+        });
+
         btn_moedas_em_alta.setOnClickListener(view -> {
-            Intent intent = new Intent(getApplicationContext(), CoinTrackerActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TrendingCoinActivity.class);
             startActivity(intent);
         });
     }

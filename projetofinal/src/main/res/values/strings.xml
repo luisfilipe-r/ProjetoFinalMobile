@@ -41,4 +41,7 @@
     <string name="valorDinheiro">Valor em Reais</string>
     <string name="valorMoeda">Quantas moedas você consegue comprar</string>
     <string name="zero">0</string>
+    <string name="salvar">Salvar Anotação</string>
+    <string name="mostrar">Mostrar Anotação</string>
+    <string name="acompanhar">Anote o preço ou algum outro detalhe de uma Moeda que voce queira acompanhar</string>
 </resources>

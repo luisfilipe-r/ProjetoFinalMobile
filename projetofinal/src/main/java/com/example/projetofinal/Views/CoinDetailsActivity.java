@@ -36,7 +36,7 @@ public class CoinDetailsActivity extends AppCompatActivity {
 
         btnAcompanhar = findViewById(R.id.btn_acompanhar);
         btnAcompanhar.setOnClickListener(v -> {
-            Intent intent = new Intent(getApplicationContext(), CoinTrackerActivity.class);
+            Intent intent = new Intent(getApplicationContext(), TrendingCoinActivity.class);
             startActivity(intent);
         });
 

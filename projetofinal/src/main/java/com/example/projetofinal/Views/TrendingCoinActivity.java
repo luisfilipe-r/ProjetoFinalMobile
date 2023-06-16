@@ -9,15 +9,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.projetofinal.Presenters.CoinPresenter;
-import com.example.projetofinal.Presenters.CoinPresenterContract;
-import com.example.projetofinal.Presenters.CoinPresenterLocal;
 import com.example.projetofinal.Presenters.TrendingCoinPresenter;
 import com.example.projetofinal.Presenters.TrendingCoinPresenterContract;
 import com.example.projetofinal.Presenters.TrendingCoinPresenterLocal;
 import com.example.projetofinal.R;
 
-public class CoinTrackerActivity extends AppCompatActivity implements TrendingCoinPresenterContract.View {
+public class TrendingCoinActivity extends AppCompatActivity implements TrendingCoinPresenterContract.View {
     private RecyclerView rv;
     LinearLayoutManager llm;
     LinearLayoutManager llmh;
